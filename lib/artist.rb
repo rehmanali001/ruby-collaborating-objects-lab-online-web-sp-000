@@ -13,5 +13,7 @@ class Artist
     @all 
   end
   
+  def add_song(name)
+    @@all << name
     
 end 
