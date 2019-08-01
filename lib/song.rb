@@ -8,7 +8,6 @@ class Song
   
   def self.all 
     @@all
-  def self.new_by_filename
-    
-  
+  def self.new_by_filename(file_name)
+    new_file = Song.new(file_name)
 end 
