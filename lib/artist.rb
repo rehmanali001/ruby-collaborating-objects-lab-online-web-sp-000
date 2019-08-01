@@ -22,4 +22,7 @@ class Artist
     artist_exists = self.all.find{ |artist| artist.name == name }
     artist_exists ? artist_exists :  self.create(name)
   end
+  
+  def print_songs
+    
 end 
