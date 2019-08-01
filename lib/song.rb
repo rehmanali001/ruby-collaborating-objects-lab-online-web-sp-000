@@ -7,7 +7,7 @@ class Song
   end
   
   def self.all 
-    @
+    @@all
   def self.new_by_filename
     
   
